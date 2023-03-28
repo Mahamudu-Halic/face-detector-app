@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    padding: 30px 20px;
+    color: #000;
+}
+
+nav a:active{
+    opacity: 0.3;
+}

@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10%;
+  }
+  
+.navbar .nav-list li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.navbar .nav-list li a {
+    text-decoration: none;
+    color: #000;
+}

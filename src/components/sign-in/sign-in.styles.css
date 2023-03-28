@@ -1,0 +1,68 @@
+.form label{
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .form input{
+    width: 100%;
+    padding: 3px 10px;
+    height: 34px;
+    background: none;
+    outline: none;
+    border: solid 1px #121212;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .form input:focus, .form input:hover{
+    background-color: #222;
+    color: #fff;
+  }
+
+  .form input:valid{
+    border-color: #121212;
+  }
+
+  .form input:invalid{
+    border-color: red;
+  }
+  
+  button{
+    display: block;
+    margin: 30px auto;
+    height: 30px;
+    padding: 0 10px;
+    background: none;
+    border: solid 1px #121212;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .submit, .register{
+    margin: 30px auto;
+  }
+  
+  button.submit{
+    font-weight: 600;
+  }
+
+
+  
+  button.register{
+    border: none;
+    font-weight: 100;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+  
+  button.register:hover{
+    border: solid 1px #121212;
+    background-color: #121212;
+    color: #fff;
+    opacity: 1;
+  }
+
+  button.submit:active, button.register:active{
+    transform: scale(0.9);
+}
